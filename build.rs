@@ -15,6 +15,7 @@ fn main() {
     let dst = Config::new("assimp")
         .define("ASSIMP_BUILD_ASSIMP_TOOLS", "OFF")
         .define("ASSIMP_BUILD_TESTS", "OFF")
+        .define("ASSIMP_BUILD_MMD_IMPORTER", "OFF")
         .define("ASSIMP_INSTALL_PDB", "OFF")
         .define("BUILD_SHARED_LIBS", "OFF")
         .define("CMAKE_SUPPRESS_DEVELOPER_WARNINGS", "ON")
